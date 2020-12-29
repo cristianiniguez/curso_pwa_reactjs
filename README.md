@@ -2,7 +2,7 @@
 
 Proyecto del [Curso de Progressive Web Apps con React.js](https://platzi.com/clases/pwa-react-js/) de Platzi
 
-Link: https://platzi-recetas-gamma.vercel.app/
+Link: https://curso-pwa-reactjs.vercel.app/
 
 <p align='center'>
   <img src='https://static.platzi.com/media/achievements/1313-96cfddb0-624d-4a3b-8f1c-7e75660fb7a1.png' alt='logo_curso_pwa_react_platzi' />
