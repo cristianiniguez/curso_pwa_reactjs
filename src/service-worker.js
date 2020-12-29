@@ -9,6 +9,8 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute('/index.html');
 
+workbox.googleAnalytics.initialize();
+
 // Google Fonts Caching
 workbox.routing.registerRoute(
   /^https:\/\/fonts.(?:googleapis|gstatic).com\/(.*)/,
