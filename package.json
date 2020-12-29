@@ -32,5 +32,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Proyecto del [Curso de Progressive Web Apps con React.js](https://platzi.com/clases/pwa-react-js/) de Platzi",
+  "main": "config-overrides.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianiniguez/curso_pwa_reactjs.git"
+  },
+  "keywords": [],
+  "author": "cristianiniguez <felizpc1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianiniguez/curso_pwa_reactjs/issues"
+  },
+  "homepage": "https://platzi-recetas-gamma.vercel.app/"
 }
