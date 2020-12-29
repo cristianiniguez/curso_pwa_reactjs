@@ -24,6 +24,6 @@ export default class IfOffline extends React.Component {
     const { children } = this.props;
     const { onLine } = this.state;
 
-    return onLine && <span>{children}</span>;
+    return !onLine && <span>{children}</span>;
   }
 }
