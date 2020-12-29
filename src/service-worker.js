@@ -21,6 +21,20 @@ workbox.routing.registerRoute(
   'GET',
 );
 
+// Api images Caching
+workbox.routing.registerRoute(
+  /^https?:\/\/www.themealdb.com\/images\/.*/,
+  new workbox.strategies.CacheFirst({
+    cacheName: 'images-cache',
+    plugin: [
+      new workbox.expiration.Plugin({
+        maxAgeSeconds: 7 * 24 * 60 * 60,
+        maxEntries: 20,
+      }),
+    ],
+  }),
+);
+
 // Api request Caching
 workbox.routing.registerRoute(
   /^https?:\/\/www.themealdb.com\/api\/.*/,
